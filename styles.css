@@ -1,0 +1,79 @@
+body {
+    padding: 7% 5%;
+    background: linear-gradient(to right, #d8d3ff 0%,#d8d3ff 60%,black 60%,black 100%);
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    word-spacing: 0.5rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.text-list{
+    font-size: 1.5rem;
+    padding-right: 15%;
+}
+
+li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-class {
+    padding-right: 6rem;
+}
+
+.form-class{
+    color: white;
+    padding-top: 3%;
+}
+
+.name-input, .email-input{
+    margin-bottom: 1rem;
+    width: 80%;
+    height: 3rem;
+}
+
+.email-label {
+    display: inline;
+}
+
+.submit-button {
+    margin-top: 2rem;
+    background-color: #d8d3ff;
+    border-radius: 0%;
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+@media (max-width:767px) and (min-width:745px){
+    body {
+        background: linear-gradient(to bottom, #d8d3ff 0%,#d8d3ff 55%,black 55%,black 100%);
+    }
+}
+
+@media (max-width:744px) and (min-width:603px){
+    body {
+        background: linear-gradient(to bottom, #d8d3ff 0%,#d8d3ff 60%,black 60%,black 100%);
+    }
+}
+
+@media (max-width:602px) and (min-width:528px) {
+    body {
+        background: linear-gradient(to bottom, #d8d3ff 0%,#d8d3ff 62.5%,black 62.5%,black 100%);
+    }
+}
+
+@media (max-width:527px) {
+    body {
+        background: linear-gradient(to bottom, #d8d3ff 0%,#d8d3ff 65%,black 65%,black 100%);
+    }
+}
